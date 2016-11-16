@@ -6,8 +6,32 @@
     android:orientation="vertical">
 
     <Button
+        android:id="@+id/test1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Chiyu 2016.11.16"
+        android:text="Chiyu Test 1"
         android:onClick="test1"/>
+
+    <Button
+        android:id="@+id/test2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chiyu Test 2"
+        android:onClick="test1"/>
+
+    <Button
+        android:id="@+id/test3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chiyu Test 3"
+        android:onClick="test3"/>
+
+    <Button
+        android:id="@+id/test4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chiyu Test 4"
+        android:onClick="test4"/>
+
+
 </LinearLayout>
